@@ -1,0 +1,69 @@
+{
+    "screenList":[
+                  {
+                  "id":301,
+                  "name":"questionnaire",
+                  "tabsList":[
+                              {
+                              "id":1001,
+                              "name":"Tab1",
+                              "title":"TabTitle1"
+                              },
+                              {
+                              "id":1001,
+                              "name":"Tab2",
+                              "title":"TabTitle2"
+                              }
+                              ],
+                  "tabFormMap":{
+                  "1001":[
+                          {
+                          "id":502,
+                          "name":"Form2",
+                          "title":"FormTitle2",
+                          "groupTitle":"FormGroup2"
+                          }
+                          ]
+                  },
+                  "formFieldMap":{
+                  "501":[
+                         {
+                         "id":101,
+                         "name":"Q1",
+                         "title":"Employment Status: Are you currently…?",
+                         "answer":null,
+                         "required":false,
+                         "diasbled":false
+                         },
+                         {
+                         "id":102,
+                         "name":"Q2",
+                         "title":"Are you from which city ",
+                         "answer":null,
+                         "required":false,
+                         "diasbled":false
+                         }
+                         ],
+                  "502":[
+                         {
+                         "id":103,
+                         "name":"Q3",
+                         "title":"Tell about programming Experience?",
+                         "answer":null,
+                         "required":false,
+                         "diasbled":false
+                         },
+                         {
+                         "id":103,
+                         "name":"Q3",
+                         "title":"Tell about memory management",
+                         "answer":null,
+                         "required":false,
+                         "diasbled":false
+                         }
+                         ]
+                  }
+                  }
+                  ],
+    "success":true
+}
